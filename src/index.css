@@ -1,1 +1,6 @@
 @import "normalize.css";
+
+:root {
+  --background-main: #0A0A0A;
+  --text-main: #FAFAFA;
+}

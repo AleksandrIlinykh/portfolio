@@ -1,0 +1,17 @@
+.headerTextLogo {
+  font-family: Source Code Pro, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  color: var(--text-color);
+}
+
+.headerTextLink {
+  font-family: Source Code Pro, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  color: var(--text-color);
+}
