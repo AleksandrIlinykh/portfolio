@@ -4,7 +4,7 @@ export default function Header({ isMenuOpen, setIsMenuOpen }) {
   return (
     <nav className={headerStyles.header}>
       <div className={headerStyles.logo}>
-        <h1>ALEXANDER ILINYKH</h1>
+        <h1 className={headerStyles.logoText}>ALEXANDER ILINYKH</h1>
       </div>
       <div className={headerStyles.controls}>
         <ul
@@ -14,11 +14,10 @@ export default function Header({ isMenuOpen, setIsMenuOpen }) {
             (isMenuOpen && headerStyles.headerNavActive)
           }
         >
-          <li className={headerStyles.headerNavElem}>home</li>
-          <li className={headerStyles.headerNavElem}>about</li>
-          <li className={headerStyles.headerNavElem}>skills</li>
-          <li className={headerStyles.headerNavElem}>portfolio</li>
-          <li className={headerStyles.headerNavElem}>contact</li>
+          <li className={headerStyles.headerNavElem}>обо мне</li>
+          <li className={headerStyles.headerNavElem}>проекты</li>
+          <li className={headerStyles.headerNavElem}>навыки</li>
+          <li className={headerStyles.headerNavElem}>контакты</li>
         </ul>
 
         <div
