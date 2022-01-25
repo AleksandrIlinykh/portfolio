@@ -1,5 +1,6 @@
 import Header from "../header/header";
 import Home from "../home/home";
+import About from "../about/about";
 import appStyles from "./app.module.css";
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Header />
       <div className={appStyles.content}>
         <Home />
+        <About />
       </div>
     </div>
   );
