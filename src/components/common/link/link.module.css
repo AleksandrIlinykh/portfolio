@@ -1,0 +1,8 @@
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.link:hover {
+color: var(--link-active);
+}

@@ -10,17 +10,25 @@
 
 .content {
   composes: homeText from "../common/common.module.css";
-  margin-top: 100px;
+  margin: 100px auto;
   max-width: 1200px;
   display: flex;
   align-items: center;
 }
 
+.about{
+  padding: 50px;
+}
+
+.links {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
 
 .gradient {
   z-index: 1;
   background: linear-gradient(to bottom, rgba(255, 255, 255,0) 0%,rgba(255, 255, 255,0.65) 100%); /* W3C */
-  display:block;
 }
 
 .img {
@@ -29,8 +37,19 @@
   display:block;
 }
 
+
 @media screen and (max-width: 1200px) {
   .content { 
     flex-direction: column-reverse;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .home {
+    font-size: 15px;
+  }
+  .img { 
+    width: 90vw;
   }
 }

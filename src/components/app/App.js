@@ -1,6 +1,5 @@
 import Header from "../header/header";
 import Home from "../home/home";
-
 import appStyles from "./app.module.css";
 function App() {
   return (
