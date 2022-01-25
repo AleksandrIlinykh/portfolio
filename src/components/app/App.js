@@ -1,10 +1,14 @@
 import Header from "../header/header";
+import Home from "../home/home";
 
 import appStyles from "./app.module.css";
 function App() {
   return (
-    <div className="App">
+    <div className={appStyles.app}>
       <Header />
+      <div className={appStyles.content}>
+        <Home />
+      </div>
     </div>
   );
 }
