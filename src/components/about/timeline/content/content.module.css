@@ -12,12 +12,11 @@
 }
 
 .date {
-  composes: timelineDate from "../../../common/common.module.css";
+  composes: timelineElementDate from "../../../common/common.module.css";
 }
 .header {
-  composes: timelineHeader from "../../../common/common.module.css";
+  composes: timelineElementHeader from "../../../common/common.module.css";
 }
-
 .text {
-  composes: timelineText from "../../../common/common.module.css";
+  composes: timelineElementText from "../../../common/common.module.css";
 }

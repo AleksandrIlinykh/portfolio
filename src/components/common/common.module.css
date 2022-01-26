@@ -29,13 +29,21 @@
   font-family: 'Source Code Pro', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 40px;
-  
+  font-size: 50px;
   line-height: 100%;
   color: var(--text-color);
 }
 
-.timelineDate {
+.timelineElementHeader {
+  font-family: 'Source Code Pro', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 100%;
+  color: var(--text-color);
+}
+
+.timelineElementDate {
   font-family: 'Source Code Pro', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -44,7 +52,7 @@
   color: var(--text-color);
 }
 
-.timelineText {
+.timelineElementText {
   font-family: 'Source Code Pro', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;

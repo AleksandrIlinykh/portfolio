@@ -7,17 +7,17 @@ import timelineStyles from "./timeline.module.css";
 export default function Timeline() {
   return (
     <div className={timelineStyles.timeline}>
-      <h1>Обо мне</h1>
+      <h2 className={timelineStyles.header}>Обо мне</h2>
       <div className={timelineStyles.content}>
         {timelineData.map((timelineElement) => (
           <>
+            <Line width={"2px"} height={"200px"} color={"white"} />
             <Content
               date={timelineElement.date}
               header={timelineElement.header}
               text={timelineElement.text}
               key={timelineElement.id}
             />
-            <Line width={"2px"} height={"200px"} color={"white"} />
           </>
         ))}
       </div>
