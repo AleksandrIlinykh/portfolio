@@ -1,8 +1,24 @@
+.container {
+  display: inline-block;
+  vertical-align: top;
+}
+
 .link {
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.link p {
+  text-align: justify;
 }
 
 .link:hover {
 color: var(--link-active);
 }
+
+.linkElement {
+  text-decoration: underline;
+}
+
+

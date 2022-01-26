@@ -1,0 +1,23 @@
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--background-main);
+  color: var( --text-main); 
+  text-align: center;
+  word-wrap: normal;
+  max-width: 700px;
+}
+
+.date {
+  composes: timelineDate from "../../../common/common.module.css";
+}
+.header {
+  composes: timelineHeader from "../../../common/common.module.css";
+}
+
+.text {
+  composes: timelineText from "../../../common/common.module.css";
+}

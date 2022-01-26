@@ -23,3 +23,32 @@
   line-height: 168%;
   color: var(--text-color);
 }
+
+
+.timelineHeader {
+  font-family: 'Source Code Pro', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  
+  line-height: 100%;
+  color: var(--text-color);
+}
+
+.timelineDate {
+  font-family: 'Source Code Pro', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  color: var(--text-color);
+}
+
+.timelineText {
+  font-family: 'Source Code Pro', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: var(--text-color);
+}

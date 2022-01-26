@@ -1,6 +1,7 @@
 .timeline {
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: var(--background-main);
   color: var( --text-main); 
 }
@@ -11,8 +12,14 @@
   align-items: center;
   background-color: var(--background-main);
   color: var( --text-main); 
+
 }
 
 .text {
-  max-width: 500px;
+
+  text-align: right;
+}
+
+.timeline p {
+  text-align: justify;
 }
