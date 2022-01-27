@@ -6,6 +6,7 @@
   --text-main: #FAFAFA;
 
   --link-active: #00D4AE;
+  --background-card-active: rgba(0, 212, 174, 0.7);
 }
 
 *{

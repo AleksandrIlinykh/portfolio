@@ -18,6 +18,7 @@
 
 .logoText {
   composes: headerTextLogo from "../common/common.module.css";
+  
 }
 
 .img {
