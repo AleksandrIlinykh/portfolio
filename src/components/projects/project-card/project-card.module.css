@@ -27,11 +27,19 @@ composes: projectCardText from "../../common/common.module.css";
 
 }
 
+.linkImg:hover{
+  border: var(--link-active) solid 2px;
+  border-radius: 10px;
+  background-color: var(--link-active);
+}
+
+
 .linkImg{
   margin-right: 20px;
   width: 50px;
 
 }
+
 
 .imageContainer img {
   width: 600px;
