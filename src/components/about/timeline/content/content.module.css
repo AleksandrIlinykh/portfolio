@@ -8,15 +8,42 @@
   color: var( --text-main); 
   text-align: center;
   word-wrap: normal;
-  max-width: 700px;
 }
 
 .date {
+  margin-top: 40px;
   composes: timelineElementDate from "../../../common/common.module.css";
 }
 .header {
+  margin-top: 40px;
   composes: timelineElementHeader from "../../../common/common.module.css";
 }
 .text {
+  margin-top: 40px;
   composes: timelineElementText from "../../../common/common.module.css";
+}
+
+
+@media screen and (max-width: 600px) {
+  .date {
+    font-size: 25px;
+  }
+  .header {
+    font-size: 25px;
+  }
+  .text { 
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .date {
+    font-size: 20px;
+  }
+  .header {
+    font-size: 20px;
+  }
+  .text { 
+    font-size: 15px;
+  }
 }

@@ -1,6 +1,7 @@
 import projectsStyles from "./projects.module.css";
 import ProjectCard from "./project-card/project-card";
 import { projectData } from "../../data/projectsData";
+import OnScrollContainer from "../common/on-scroll-container/on-scroll-container";
 
 export default function Projects() {
   return (

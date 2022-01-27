@@ -10,10 +10,12 @@
 }
 
 .content {
-  width: 1200px;
+  width: 1400px;
   position: relative;
   top: 70px;
   scroll-behavior: smooth;
-  border: white 1px solid;
 }
 
+.block {
+  padding: 40px;
+}
