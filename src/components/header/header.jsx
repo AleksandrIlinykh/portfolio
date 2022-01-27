@@ -5,7 +5,9 @@ export default function Header({ isMenuOpen, setIsMenuOpen }) {
     <nav className={headerStyles.header}>
       <div className={headerStyles.logo}>
         <h1 className={headerStyles.logoText}>
-          <a href="#home">ALEXANDER ILINYKH</a>
+          <a href="#home" className={headerStyles.logoLink}>
+            ALEXANDER ILINYKH
+          </a>
         </h1>
       </div>
       <div className={headerStyles.controls}>

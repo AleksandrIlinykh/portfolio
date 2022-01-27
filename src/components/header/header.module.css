@@ -70,7 +70,9 @@
   gap: 4px;
 }
 
-
+.logoLink:hover {
+  color: var(--link-active);
+}
 @media screen and (max-width: 1450px) {
   .logoText {
     font-size: 30px;
