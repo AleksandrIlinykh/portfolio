@@ -15,9 +15,14 @@ export default function Home() {
             </p>
             <div className={homeStyles.links}>
               <Link type={"openNewTab"} text={"К проектам"} />
-              <Link type={"download"} text={"Резюме"} />
+              <Link
+                type={"download"}
+                text={"Резюме"}
+                className={homeStyles.text}
+              />
             </div>
           </section>
+
           <div className={homeStyles.gradient}>
             <img src={myPhoto} alt="" className={homeStyles.img} />
           </div>

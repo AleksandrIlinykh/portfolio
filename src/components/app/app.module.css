@@ -1,11 +1,12 @@
-.app{
+.app{  
   width: 100vw;
   background-color: var(--background-main);
   color: var( --text-main); 
   border-color: var( --text-main) ; 
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+
 }
 
 .content {
