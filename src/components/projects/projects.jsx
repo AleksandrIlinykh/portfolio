@@ -1,11 +1,12 @@
 import projectsStyles from "./projects.module.css";
 import ProjectCard from "./project-card/project-card";
 import { projectData } from "../../data/projectsData";
+import OnScrollContainer from "../common/on-scroll-container/on-scroll-container";
 
 export default function Projects() {
   return (
     <>
-      <h2>Мои проекты:</h2>
+      <h2 className={projectsStyles.header}>Мои проекты:</h2>
       <div className={projectsStyles.projects} id="projects">
         {projectData.map((project) => (
           <ProjectCard

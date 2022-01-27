@@ -7,7 +7,6 @@ export default function Line({ width, height, color }) {
     line.current.style.width = width;
     line.current.style.height = height;
     line.current.style.backgroundColor = color;
-    console.log(line.current);
   }, []);
 
   return <div className={lineStyles.line} ref={line}></div>;

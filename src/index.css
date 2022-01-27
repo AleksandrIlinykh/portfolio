@@ -9,6 +9,10 @@
   --background-card-active: rgba(0, 212, 174, 0.7);
 }
 
+html {
+  background-color: var(--background-main);
+}
+
 *{
   box-sizing: border-box;
   margin: 0;

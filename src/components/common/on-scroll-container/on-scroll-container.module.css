@@ -1,0 +1,9 @@
+.container {
+  transition:all 3s;
+  opacity: 0;
+}
+
+.active {
+
+  opacity: 100%;
+}

@@ -5,24 +5,24 @@
   align-items: center;
   background-color: var(--background-main);
   color: var(--text-main); 
+  width: 100%;
   height: 100%;
 }
 
 .content {
   composes: homeText from "../common/common.module.css";
-  margin: 100px auto;
-  max-width: 1200px;
   display: flex;
   align-items: center;
 }
 
 .about{
-  padding: 50px;
+  margin: 50px;
 }
 
 .links {
   margin-top: 20px;
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -37,7 +37,6 @@
   display:block;
 }
 
-
 @media screen and (max-width: 1200px) {
   .content { 
     flex-direction: column-reverse;
@@ -45,11 +44,17 @@
 }
 
 
-@media screen and (max-width: 500px) {
-  .home {
-    font-size: 15px;
+@media screen and (max-width: 600px) {
+  .content {
+    font-size: 20px;
   }
   .img { 
-    width: 90vw;
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .content {
+    font-size: 15px;
   }
 }

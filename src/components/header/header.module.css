@@ -1,8 +1,9 @@
 .header {
   width: 100%;
+  max-width: 3000px;
   height: 70px;
-  background-color: var(--background-main);
-  color: var( --text-main); 
+  background-color: inherit;
+  color: inherit; 
   position: fixed;
   top: 0;
   z-index: 2; 
@@ -18,7 +19,6 @@
 
 .logoText {
   composes: headerTextLogo from "../common/common.module.css";
-  
 }
 
 .img {
@@ -38,6 +38,10 @@
   composes: headerTextLink from "../common/common.module.css";
   margin-right: 30px;
   cursor: pointer;
+}
+
+.headerNavElem:hover {
+  color: var(--link-active);
 }
 
 .hamburger {
@@ -66,7 +70,23 @@
   gap: 4px;
 }
 
-@media screen and (max-width: 920px) {
+.logoLink:hover {
+  color: var(--link-active);
+}
+@media screen and (max-width: 1450px) {
+  .logoText {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .logoText {
+    font-size: 20px;
+  }
+  
+}
+
+@media screen and (max-width: 1200px) {
   .headerNav {
     padding-inline-start: 0;
     opacity: 0.8;
@@ -75,7 +95,7 @@
     background-color: var(--main-bg-color);
     position:fixed;
     top: 70px;
-    right: -40%;
+    right: -50%;
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -104,9 +124,3 @@
   }
 }
 
-@media screen and (max-width: 500px) {
-  .logoText {
-    font-size: 20px;
-  }
-  
-}

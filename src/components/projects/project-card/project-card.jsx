@@ -34,7 +34,7 @@ export default function ProjectCard({
             <p className={projectCardStyles.tags}>
               {`Теги: `}
               {tags.map((tag) => (
-                <span className={projectCardStyles.tag}>{tag + " "}</span>
+                <span className={projectCardStyles.tag}>{tag}</span>
               ))}
             </p>
             <div className={projectCardStyles.links}>
