@@ -1,0 +1,93 @@
+.contacts {
+width: 1000px;
+height: 1000px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.info {
+  padding: 20px;
+  flex: 1 1 50%;
+  width: 100%;
+  height: 50%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+  padding: 20px;
+}
+.linkImg{
+  margin-right: 20px;
+  width: 50px;
+
+}
+.linkImg:hover{
+  border: #f4d136 solid 2px;
+  border-radius: 10px;
+  background-color: #f4d136;
+}
+
+.map {
+  position: relative;
+  padding: 20px;
+  flex: 1 1 50%;
+  width: 100%;
+  height: 50%;
+}
+
+.map h2 {
+  position: absolute;
+  z-index: 2000;
+  top: 20%;
+  left: 20%;
+  color: #f4d136;
+  font-size: 15px;
+  border-radius: 5px;
+  border: white solid 1px;
+  padding: 5px;
+}
+.contacts p {
+  text-align: center;
+}
+
+@media screen and (min-width:900px) {
+  .contacts {
+    flex-direction: row;
+    }
+    .info {
+      width: 50%;
+      height: 100%;
+    }
+    .map {
+      width: 50%;
+      height: 100%;
+    }
+    .map  h2{
+      font-size: 30px;
+    }
+ 
+    
+}
+
+@media screen and (max-width:600px) {
+  .contacts h2 {
+    font-size: 30px;
+  }
+  .contacts p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .contacts h2 {
+    font-size: 25px;
+  }
+  .contacts p {
+    font-size: 15px;
+  }
+}

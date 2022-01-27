@@ -2,6 +2,7 @@ import Header from "../header/header";
 import Home from "../home/home";
 import About from "../about/about";
 import Projects from "../projects/projects";
+import Contacts from "../contacts/contacts";
 import appStyles from "./app.module.css";
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Home />
         <About />
         <Projects />
+        <Contacts />
       </div>
     </div>
   );
