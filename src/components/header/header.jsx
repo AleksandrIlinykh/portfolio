@@ -4,7 +4,9 @@ export default function Header({ isMenuOpen, setIsMenuOpen }) {
   return (
     <nav className={headerStyles.header}>
       <div className={headerStyles.logo}>
-        <h1 className={headerStyles.logoText}>ALEXANDER ILINYKH</h1>
+        <h1 className={headerStyles.logoText}>
+          <a href="#home">ALEXANDER ILINYKH</a>
+        </h1>
       </div>
       <div className={headerStyles.controls}>
         <ul
@@ -14,10 +16,30 @@ export default function Header({ isMenuOpen, setIsMenuOpen }) {
             (isMenuOpen && headerStyles.headerNavActive)
           }
         >
-          <li className={headerStyles.headerNavElem}>обо мне</li>
-          <li className={headerStyles.headerNavElem}>проекты</li>
-          <li className={headerStyles.headerNavElem}>навыки</li>
-          <li className={headerStyles.headerNavElem}>контакты</li>
+          <li
+            className={headerStyles.headerNavElem}
+            onClick={() => {
+              setIsMenuOpen(!isMenuOpen);
+            }}
+          >
+            <a href="#about">обо мне</a>
+          </li>
+          <li
+            className={headerStyles.headerNavElem}
+            onClick={() => {
+              setIsMenuOpen(!isMenuOpen);
+            }}
+          >
+            <a href="#projects">проекты</a>
+          </li>
+          <li
+            className={headerStyles.headerNavElem}
+            onClick={() => {
+              setIsMenuOpen(!isMenuOpen);
+            }}
+          >
+            <a href="#contacts">контакты</a>
+          </li>
         </ul>
 
         <div
@@ -28,7 +50,6 @@ export default function Header({ isMenuOpen, setIsMenuOpen }) {
           }
           onClick={() => {
             setIsMenuOpen(!isMenuOpen);
-            console.log(isMenuOpen);
           }}
         >
           <span className={headerStyles.hamburgerLine}></span>
