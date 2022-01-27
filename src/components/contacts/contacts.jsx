@@ -1,19 +1,19 @@
 import React from "react";
 import Map from "./map/map";
 import contactsStyles from "./contacts.module.css";
-import githubIcon from "../../images/github-icon.png";
-import linkedinIcon from "../../images/linkedin-icon.png";
+import githubIcon from "../../images/github-icon-white.png";
+import linkedinIcon from "../../images/linkedin-icon-white.png";
 
 export default function Contacts() {
   return (
     <section className={contactsStyles.contacts}>
       <section className={contactsStyles.info}>
-        <h2>Contact information</h2>
+        <h2>Контактная информация</h2>
         <p>
-          Phone number: <br /> <strong>+7-902-255-21-32</strong>
+          Номер телефона: <br /> <strong>+7-902-255-21-32</strong>
         </p>
         <p>
-          Email: <br />
+          Email:
           <strong>alexanderilinykhdev@yandex.ru</strong>
         </p>
         <section className={contactsStyles.links}>
@@ -25,11 +25,8 @@ export default function Contacts() {
           </a>
         </section>
       </section>
-
       <section className={contactsStyles.map}>
-        <h2>
-          Here you can see <br /> where I currently am!
-        </h2>
+        <h2>Я тут!</h2>
         <Map />
       </section>
     </section>

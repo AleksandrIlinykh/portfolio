@@ -4,7 +4,13 @@ margin: 30px 0;
 color:inherit;
 position: relative;
 text-align: center;
-border: var(--background-card-active) 1px solid;
+border: var(--text-main) 2px solid;
+composes: projectCardText from "../../common/common.module.css";
+}
+
+.header {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .content {
@@ -14,7 +20,7 @@ border: var(--background-card-active) 1px solid;
 }
 
 .text {
-  composes: projectCardText from "../../common/common.module.css";
+
   margin: 10px;
 }
 .imageContainer{
@@ -28,8 +34,19 @@ border: var(--background-card-active) 1px solid;
 }
 
 .imageContainer img {
-  width: 350px;
+  width: 600px;
 }
+
+@media screen and (max-width: 700px) {
+  .projectCard {
+    font-size: 10px;
+  }
+  .imageContainer img {
+    width: 90vw;
+  }
+}
+
+
 .description {
   position: absolute;
   top: 0;
@@ -40,10 +57,18 @@ border: var(--background-card-active) 1px solid;
   display: none;
 }
 
-.tag{
-  border: var(--background-card-active) 1px solid;
-  border-radius: 3px;
+.tags {
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
+
 }
+
+.tag{
+  border: var(--text-main) 2px solid;
+  border-radius: 5px;
+}
+
 .active {
   display: flex;
   flex-direction: column;

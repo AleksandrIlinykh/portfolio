@@ -7,7 +7,7 @@ export default function OnScrollContainer({ children }) {
   const onScroll = () => {
     let positionDelta =
       container.current.getBoundingClientRect().top - window.innerHeight;
-    if (positionDelta < -100) {
+    if (positionDelta < -200) {
       setIsActive(true);
     }
   };
