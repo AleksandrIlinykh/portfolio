@@ -10,14 +10,17 @@
 
 .content {
   composes: homeText from "../common/common.module.css";
-  margin: 100px auto;
-  max-width: 1200px;
+  margin: 50px auto;
   display: flex;
   align-items: center;
 }
 
 .about{
   padding: 50px;
+}
+
+.text {
+
 }
 
 .links {

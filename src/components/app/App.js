@@ -13,9 +13,11 @@ function App() {
       <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <div className={appStyles.content}>
         <Home />
+
         <About />
+        {/*
         <Projects />
-        <Contacts />
+        <Contacts /> */}
       </div>
     </div>
   );

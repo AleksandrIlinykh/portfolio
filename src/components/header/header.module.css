@@ -1,5 +1,6 @@
 .header {
   width: 100%;
+  max-width: 3000px;
   height: 70px;
   background-color: inherit;
   color: inherit; 
