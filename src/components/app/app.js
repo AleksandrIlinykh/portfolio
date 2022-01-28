@@ -25,14 +25,11 @@ function App() {
         <div className={appStyles.block}>
           <Projects />
         </div>
-
         <Line width={"200px"} height={"5px"} color={"white"} />
-        {/* 
         <div className={appStyles.block}>
           <h2 className={appStyles.h2}>Контакты</h2>
           <Contacts />{" "}
         </div>
-*/}
       </div>
     </div>
   );
