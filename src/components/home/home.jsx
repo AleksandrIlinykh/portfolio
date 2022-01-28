@@ -23,8 +23,9 @@ export default function Home() {
             </div>
           </section>
 
-          <div className={homeStyles.gradient}>
+          <div className={homeStyles.imgContainer}>
             <img src={myPhoto} alt="" className={homeStyles.img} />
+            <div className={homeStyles.gradient}></div>
           </div>
         </div>
       </div>
