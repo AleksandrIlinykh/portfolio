@@ -91,7 +91,7 @@
     padding-inline-start: 0;
     width: 40%;
     height: calc(100vh - 70px);
-    background-color: var(--main-bg-color);
+    background-color: var(--bacground-slide-menu);
     position:fixed;
     top: 70px;
     right: -40%;
@@ -107,6 +107,8 @@
 
   .headerNavElem {
       font-size: 20px;
+      text-align: center;
+      margin: 0 auto;
   }
 
   .headerNavActive {
