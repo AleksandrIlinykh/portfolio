@@ -74,17 +74,11 @@
 .logoLink:hover {
   color: var(--link-active);
 }
-@media screen and (max-width: 1450px) {
-  .logoText {
-    font-size: 30px;
-  }
-}
 
 @media screen and (max-width: 550px) {
   .logoText {
     font-size: 20px;
   }
-  
 }
 
 @media screen and (max-width: 1200px) {
