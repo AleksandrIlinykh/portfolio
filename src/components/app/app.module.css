@@ -31,8 +31,9 @@
   composes: timelineHeader from "../common/common.module.css";
 }
 
-@media screen and (max-width: 1300px)  {
+
+@media screen and (max-width: 1250px)  {
   .content {
-    width: 70vw;
+    width: 90vw;
   }
 }

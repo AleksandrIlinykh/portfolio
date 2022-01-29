@@ -9,9 +9,9 @@ export default function Home() {
         <div className={homeStyles.content}>
           <section className={homeStyles.about}>
             <p className={homeStyles.text}>
-              Опытный инженер, который хочет найти команду единомышленников и
-              стать уверенным Front-end разработчиком. Внесу ноту креатива в
-              ваши продукты. Работаю с версткой, JS и React.
+              Я - опытный инженер, который хочет найти команду единомышленников
+              и стать уверенным Front-end разработчиком. Внесу ноту креатива в
+              ваши продукты. Работаю с версткой, JS, React и Typescript.
             </p>
             <div className={homeStyles.links}>
               <Link type={"openNewTab"} text={"К проектам"} />
