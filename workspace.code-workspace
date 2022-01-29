@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "portfolio @ deploy-on-heroku",
+			"uri": "gitlens://deploy-on-heroku/c:/WEB/1-pet-projects/portfolio?{\"path\":\"/c:/WEB/1-pet-projects/portfolio\",\"ref\":\"deploy-on-heroku\",\"repoPath\":\"c:/WEB/1-pet-projects/portfolio\"}"
+		}
+	],
+	"settings": {}
+}

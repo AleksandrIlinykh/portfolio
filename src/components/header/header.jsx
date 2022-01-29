@@ -24,7 +24,7 @@ export default function Header({ isMenuOpen, setIsMenuOpen }) {
               setIsMenuOpen(!isMenuOpen);
             }}
           >
-            <a href="#about">обо мне</a>
+            <a href="#about"> Обо мне</a>
           </li>
           <li
             className={headerStyles.headerNavElem}
@@ -32,7 +32,7 @@ export default function Header({ isMenuOpen, setIsMenuOpen }) {
               setIsMenuOpen(!isMenuOpen);
             }}
           >
-            <a href="#projects">проекты</a>
+            <a href="#projects">Проекты</a>
           </li>
           <li
             className={headerStyles.headerNavElem}
@@ -40,7 +40,7 @@ export default function Header({ isMenuOpen, setIsMenuOpen }) {
               setIsMenuOpen(!isMenuOpen);
             }}
           >
-            <a href="#contacts">контакты</a>
+            <a href="#contacts">Контакты</a>
           </li>
         </ul>
 

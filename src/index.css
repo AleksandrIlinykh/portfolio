@@ -3,6 +3,7 @@
 
 :root {
   --background-main: #0A0A0A;
+  --header-line: #EFEFEF;
   --text-main: #FAFAFA;
 
   --link-active: #00D4AE;
@@ -25,5 +26,6 @@ ol, ul {
 }
 
 a {
-  color:inherit
+  color:inherit;
+  text-decoration: none;
 }

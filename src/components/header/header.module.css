@@ -1,7 +1,7 @@
 .header {
   width: 100%;
-  max-width: 3000px;
-  height: 70px;
+  max-width: 1440px;
+  height: 84px;
   background-color: inherit;
   color: inherit; 
   position: fixed;
@@ -10,11 +10,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: var( --text-main) solid 2px;
+  border-bottom: var( --header-line) solid 1px;
 }
 
 .logo {
-  margin: 5px 0 0 20px;
+  margin:auto 34px;
 }
 
 .logoText {
@@ -32,11 +32,12 @@
   color: white;
   display: flex;
   transition: 2s ease;
+  gap: 70px;
+  margin-right: 55px;
 }
 
 .headerNavElem {
   composes: headerTextLink from "../common/common.module.css";
-  margin-right: 30px;
   cursor: pointer;
 }
 

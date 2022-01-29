@@ -1,27 +1,26 @@
 .headerTextLogo {
   font-family: 'Source Code Pro', Arial, sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 50px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: auto;
   color: var(--text-color);
-  letter-spacing: 5px;
 }
 
 .headerTextLink {
   font-family: 'Source Code Pro', Arial, sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
+  font-weight: 200;
+  font-size: 20px;
   line-height: auto;
   color: var(--text-color);
-  letter-spacing: 5px;
 }
 
 .homeText {
   font-family: 'Source Code Pro', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 35px;
+  font-size: 24px;
   line-height: 168%;
   color: var(--text-color);
   letter-spacing: 5px;
