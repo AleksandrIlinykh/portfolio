@@ -21,31 +21,27 @@ export default function ProjectCard({
         onMouseEnter={() => setIsDescription(true)}
         onMouseLeave={() => setIsDescription(false)}
       >
-        <h2 className={projectCardStyles.header}>{header}</h2>
-        <div className={projectCardStyles.content}>
-          <div className={projectCardStyles.imageContainer}>{imgSrc}</div>
+        <div className={projectCardStyles.imageContainer}>{imgSrc}</div>
 
-          <div
-            className={`${projectCardStyles.description} ${
-              isDescription && projectCardStyles.active
-            }`}
-          >
-            <p className={projectCardStyles.text}>{text}</p>
+        <div className={projectCardStyles.description}>
+          <h2 className={projectCardStyles.header}>{header}</h2>
+          <p className={projectCardStyles.text}>{text}</p>
+          <p className={projectCardStyles.tagsContainer}>
+            <p>Теги: </p>
             <p className={projectCardStyles.tags}>
-              {`Теги: `}
               {tags.map((tag) => (
                 <span className={projectCardStyles.tag}>{tag}</span>
               ))}
             </p>
-            <div className={projectCardStyles.links}>
-              <a href={link}>
-                <img
-                  src={githubIconWhite}
-                  className={projectCardStyles.linkImg}
-                  alt=""
-                />
-              </a>
-            </div>
+          </p>
+          <div className={projectCardStyles.links}>
+            <a href={link}>
+              <img
+                src={githubIconWhite}
+                className={projectCardStyles.linkImg}
+                alt=""
+              />
+            </a>
           </div>
         </div>
       </div>
