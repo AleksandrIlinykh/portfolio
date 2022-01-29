@@ -11,5 +11,5 @@
 .header {
   text-align: center;
   margin-bottom: 40px;
-  composes: timelineHeader from "../common/common.module.css";
+  composes: blockHeader from "../common/common.module.css";
 }

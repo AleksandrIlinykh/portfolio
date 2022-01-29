@@ -1,6 +1,8 @@
 import linkStyles from "./link.module.css";
 import OpenInNewOutlinedIcon from "@mui/icons-material/OpenInNewOutlined";
 import FileDownloadOutlinedIcon from "@mui/icons-material/FileDownloadOutlined";
+import arrowLeftRight from "../../../images/arrow-left-right.svg";
+import arrowBottom from "../../../images/arrow-bottom.svg";
 
 export default function Link({
   type,

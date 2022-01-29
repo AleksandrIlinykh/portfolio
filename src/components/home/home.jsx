@@ -14,12 +14,12 @@ export default function Home() {
               ваши продукты. Работаю с версткой, JS, React и Typescript.
             </p>
             <div className={homeStyles.links}>
-              <Link type={"openNewTab"} text={"К проектам"} />
               <Link
-                type={"download"}
-                text={"Резюме"}
-                className={homeStyles.text}
+                type={"openNewTab"}
+                text={"К проектам"}
+                iconSize={"large"}
               />
+              <Link type={"download"} text={"Резюме"} iconSize={"large"} />
             </div>
           </section>
 

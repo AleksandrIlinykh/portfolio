@@ -6,8 +6,8 @@
   gap: 20px;
   background-color: var(--background-main);
   color: var( --text-main); 
-  text-align: center;
   word-wrap: normal;
+  text-align: center;
 }
 
 .date {
@@ -15,11 +15,11 @@
   composes: timelineElementDate from "../../../common/common.module.css";
 }
 .header {
-  margin-top: 40px;
+  margin-top: 20px;
   composes: timelineElementHeader from "../../../common/common.module.css";
 }
 .text {
-  margin-top: 40px;
+  margin-top: 20px;
   composes: timelineElementText from "../../../common/common.module.css";
 }
 

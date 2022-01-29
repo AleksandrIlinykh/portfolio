@@ -4,6 +4,7 @@
   justify-content: center;
   background-color: var(--background-main);
   color: var( --text-main); 
+  max-width: 500px;
 }
 
 .header {
@@ -19,12 +20,4 @@
   background-color: var(--background-main);
   color: var( --text-main); 
 
-}
-
-.text {
-  text-align: right;
-}
-
-.timeline p {
-  text-align: justify;
 }

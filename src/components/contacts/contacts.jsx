@@ -8,7 +8,6 @@ export default function Contacts() {
   return (
     <section className={contactsStyles.contacts}>
       <section className={contactsStyles.info}>
-        <h2>Контактная информация</h2>
         <p>
           Номер телефона: <br /> <strong>+7-902-255-21-32</strong>
         </p>

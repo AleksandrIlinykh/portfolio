@@ -6,7 +6,6 @@ import OnScrollContainer from "../common/on-scroll-container/on-scroll-container
 export default function Projects() {
   return (
     <>
-      <h2 className={projectsStyles.header}>Мои проекты:</h2>
       <div className={projectsStyles.projects} id="projects">
         {projectData.map((project) => (
           <ProjectCard

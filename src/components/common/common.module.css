@@ -26,26 +26,37 @@
 }
 
 
-.timelineHeader {
-  composes: headerTextLogo;
+.blockHeader {
+  font-family: 'Source Code Pro', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  color: var(--text-color);
 }
 
 .timelineElementHeader {
   font-family: 'Source Code Pro', Arial, sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 100%;
+  font-weight: 400;
+  font-size: 30px;
   color: var(--text-color);
-  letter-spacing: 5px;
 }
 
 .timelineElementDate {
-  composes: homeText;
+  font-family: 'Source Code Pro', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: var(--text-color);
 }
 
 .timelineElementText {
-  composes: homeText;
+  font-family: 'Source Code Pro', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 168%;
+  color: var(--text-color);
 }
 
 .projectCardText {
