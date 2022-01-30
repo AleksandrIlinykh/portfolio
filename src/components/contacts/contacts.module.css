@@ -78,18 +78,9 @@ composes: projectCardText from "../common/common.module.css";
 
 @media screen and (max-width:600px) {
   .contacts h2 {
-    font-size: 30px;
-  }
-  .contacts p {
     font-size: 20px;
   }
-}
-
-@media screen and (max-width:450px) {
-  .contacts h2 {
-    font-size: 25px;
-  }
   .contacts p {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
