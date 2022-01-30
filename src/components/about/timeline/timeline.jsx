@@ -8,7 +8,7 @@ import OnScrollContainer from "../../common/on-scroll-container/on-scroll-contai
 export default function Timeline() {
   return (
     <div className={timelineStyles.timeline}>
-      <div className={timelineStyles.content} id="about">
+      <div className={timelineStyles.content}>
         {timelineData.map((timelineElement) => (
           <>
             <Line width={"2px"} height={"200px"} color={"white"} />

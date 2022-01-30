@@ -29,8 +29,10 @@ function App() {
         </div>
         <Line width={"200px"} height={"5px"} color={"white"} />
         <div className={appStyles.block}>
-          <h2 className={appStyles.h2}>Контакты</h2>
-          <Contacts />{" "}
+          <h2 className={appStyles.h2} id="contacts">
+            Контакты
+          </h2>
+          <Contacts />
         </div>
       </div>
     </div>

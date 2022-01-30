@@ -13,7 +13,7 @@ export default function Home() {
               и стать уверенным Front-end разработчиком. Внесу ноту креатива в
               ваши продукты. Работаю с версткой, JS, React и Typescript.
             </p>
-            <div className={homeStyles.links}>
+            <div className={homeStyles.links} id="about">
               <Link
                 type={"openNewTab"}
                 text={"К проектам"}
