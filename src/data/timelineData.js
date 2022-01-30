@@ -13,6 +13,7 @@ export const timelineData = [
         href={"https://ru.d-test.ru/"}
         isBlank={true}
         iconSize={"medium"}
+        key={1}
       />,
       ` написал алгоритм для `,
       <Link
@@ -23,6 +24,7 @@ export const timelineData = [
         }
         isBlank={true}
         iconSize={"medium"}
+        key={2}
       />,
       " толщины жвачки на С++.",
     ],
@@ -39,6 +41,7 @@ export const timelineData = [
         href={"https://www.npoa.ru/"}
         isBlank={true}
         iconSize={"medium"}
+        key={1}
       />,
       `. Помимо инженерных задач занимался написанием ПО. Самое большое достижение - 
       локализация и устранение ошибки в коде микроконтроллера на assembler 8086, завтавлявшей приборы периодически выходить из строя в течении нескольких лет!`,
@@ -56,6 +59,7 @@ export const timelineData = [
         href={"https://labyrinth.pro/"}
         isBlank={true}
         iconSize={"medium"}
+        key={1}
       />,
       `, где работал над противоугонной системой. Помимо проектировки антенн и железа занимался рефакторингом кода микроконтроллеров на C++, 
        улучшал UI/UX платформы мониторинга с WEB разработчиками.`,
@@ -73,6 +77,7 @@ export const timelineData = [
         href={"https://ema.su/"}
         isBlank={true}
         iconSize={"medium"}
+        key={1}
       />,
       `, Целый месяц провёл в Германии и Голландии, работая в лаборатории`,
       <Link
@@ -83,6 +88,7 @@ export const timelineData = [
         }
         isBlank={true}
         iconSize={"medium"}
+        key={2}
       />,
       `, успешно сопроводив прохождение испытаний медицинских устройств,
    активно общаясь с инженерами на английском и на месте исправляя критические недостатки.`,
@@ -100,6 +106,7 @@ export const timelineData = [
         href={"https://practicum.yandex.ru/react/"}
         isBlank={true}
         iconSize={"medium"}
+        key={3}
       />,
       ` от Яндекс Практикум, реализуя давнее желание посвятить себя программированию, действую, делаю ошибки, учусь новому!`,
     ],

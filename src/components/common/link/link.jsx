@@ -25,7 +25,7 @@ export default function Link({
         {icon()}
         <a
           href={href}
-          target={isBlank && "_blank"}
+          target={String(isBlank && "_blank")}
           className={linkStyles.linkElement}
         >
           {text}

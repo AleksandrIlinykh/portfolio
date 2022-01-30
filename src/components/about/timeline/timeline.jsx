@@ -9,18 +9,17 @@ export default function Timeline() {
   return (
     <div className={timelineStyles.timeline}>
       <div className={timelineStyles.content}>
-        {timelineData.map((timelineElement) => (
-          <>
+        {timelineData.map((timelineElement, index) => (
+          <div key={index}>
             <Line width={"2px"} height={"200px"} color={"white"} />
             <OnScrollContainer>
               <Content
                 date={timelineElement.date}
                 header={timelineElement.header}
                 text={timelineElement.text}
-                key={timelineElement.id}
               />
             </OnScrollContainer>
-          </>
+          </div>
         ))}
       </div>
     </div>
