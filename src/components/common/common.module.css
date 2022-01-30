@@ -20,7 +20,7 @@
   font-family: 'Source Code Pro', Arial, sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 168%;
   color: var(--text-color);
 }
@@ -30,7 +30,7 @@
   font-family: 'Source Code Pro', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 48px;
+  font-size: 30px;
   color: var(--text-color);
 }
 
@@ -38,7 +38,7 @@
   font-family: 'Source Code Pro', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 20px;
   color: var(--text-color);
 }
 
@@ -46,7 +46,7 @@
   font-family: 'Source Code Pro', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 16px;
   color: var(--text-color);
 }
 
@@ -54,7 +54,7 @@
   font-family: 'Source Code Pro', Arial, sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 168%;
   color: var(--text-color);
 }
@@ -63,7 +63,7 @@
   font-family: 'Source Code Pro', Arial, sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 168%;
   color: var(--text-color);
 }

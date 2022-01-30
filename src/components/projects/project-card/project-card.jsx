@@ -27,7 +27,6 @@ export default function ProjectCard({
           <h2 className={projectCardStyles.header}>{header}</h2>
           <p className={projectCardStyles.text}>{text}</p>
           <p className={projectCardStyles.tagsContainer}>
-            <p>Теги: </p>
             <p className={projectCardStyles.tags}>
               {tags.map((tag) => (
                 <span className={projectCardStyles.tag}>{tag}</span>
