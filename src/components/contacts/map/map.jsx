@@ -9,8 +9,8 @@ import mapStyles from "./map.module.css";
 delete L.Icon.Default.prototype._getIconUrl;
 
 L.Icon.Default.mergeOptions({
-  iconRetinaUrl: require("leaflet/dist/images/marker-icon.png"),
-  iconUrl: require("leaflet/dist/images/marker-icon.png"),
+  iconRetinaUrl: require("../../../images/marker-icon.png"),
+  iconUrl: require("../../../images/marker-icon.png"),
   shadowUrl: require("leaflet/dist/images/marker-shadow.png"),
 });
 export default function Map() {

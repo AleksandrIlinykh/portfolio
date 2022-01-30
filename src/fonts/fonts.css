@@ -1,27 +1,38 @@
 
+
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/SourceCodePro-Light.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./SourceCodePro-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./SourceCodePro-Light.woff') format('woff'), /* Modern Browsers */
+       url('./SourceCodePro-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./SourceCodePro-Light.svg#SourceCodePro') format('svg'); /* Legacy iOS */
+}
+
 /* source-code-pro-regular - latin */
 @font-face {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Source Code Pro';
   font-style: normal;
   font-weight: 400;
-  letter-spacing: 10px;
+  src: url('../fonts/SourceCodePro-Regular.eot'); /* IE9 Compat Modes */
   src: local(''),
-       url('./source-code-pro-v18-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./source-code-pro-v18-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('./SourceCodePro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./SourceCodePro-Regular.woff') format('woff'), /* Modern Browsers */
+       url('./SourceCodePro-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./SourceCodePro-Regular.svg#SourceCodePro') format('svg'); /* Legacy iOS */
 }
-/* source-code-pro-500 - latin */
+
 @font-face {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Source Code Pro';
   font-style: normal;
   font-weight: 500;
-  src: url('./source-code-pro-v18-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./source-code-pro-v18-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* source-code-pro-700 - latin */
-@font-face {
-  font-family: 'Source Code Pro', monospace;
-  font-style: normal;
-  font-weight: 700;
-  src: url('./source-code-pro-v18-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./source-code-pro-v18-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url('../fonts/SourceCodePro-Medium.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('./SourceCodePro-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./SourceCodePro-Medium.woff') format('woff'), /* Modern Browsers */
+       url('./SourceCodePro-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./SourceCodePro-Medium.svg#SourceCodePro') format('svg'); /* Legacy iOS */
 }

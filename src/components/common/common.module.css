@@ -1,57 +1,69 @@
 .headerTextLogo {
   font-family: 'Source Code Pro', Arial, sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 50px;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: auto;
   color: var(--text-color);
-  letter-spacing: 5px;
 }
 
 .headerTextLink {
   font-family: 'Source Code Pro', Arial, sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
+  font-weight: 300;
+  font-size: 20px;
   line-height: auto;
   color: var(--text-color);
-  letter-spacing: 5px;
 }
 
 .homeText {
   font-family: 'Source Code Pro', Arial, sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 35px;
+  font-weight: 300;
+  font-size: 18px;
   line-height: 168%;
   color: var(--text-color);
-  letter-spacing: 5px;
 }
 
 
-.timelineHeader {
-  composes: headerTextLogo;
+.blockHeader {
+  font-family: 'Source Code Pro', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: var(--text-color);
 }
 
 .timelineElementHeader {
   font-family: 'Source Code Pro', Arial, sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 100%;
+  font-weight: 400;
+  font-size: 20px;
   color: var(--text-color);
-  letter-spacing: 5px;
 }
 
 .timelineElementDate {
-  composes: homeText;
+  font-family: 'Source Code Pro', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--text-color);
 }
 
 .timelineElementText {
-  composes: homeText;
+  font-family: 'Source Code Pro', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 168%;
+  color: var(--text-color);
 }
 
 .projectCardText {
-  composes: homeText;
-  font-size: 20px;
-  line-height: 120%;
+  font-family: 'Source Code Pro', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 168%;
+  color: var(--text-color);
 }

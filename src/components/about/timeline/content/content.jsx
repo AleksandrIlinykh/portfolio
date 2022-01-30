@@ -4,7 +4,7 @@ export default function Content({ date, header, text }) {
     <div className={contentStyles.content}>
       <h2 className={contentStyles.date}>{date}</h2>
       <h3 className={contentStyles.header}>{header}</h3>
-      <p className={contentStyles.text}>{text}</p>
+      <div className={contentStyles.text}>{text}</div>
     </div>
   );
 }

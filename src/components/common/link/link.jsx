@@ -8,6 +8,7 @@ export default function Link({
   href,
   iconSize = "large",
   isBlank = false,
+  fileName = "",
 }) {
   const icon = () => {
     if (type === "download") {
@@ -23,8 +24,9 @@ export default function Link({
         {icon()}
         <a
           href={href}
-          target={isBlank && "_blank"}
+          target={String(isBlank && "_blank")}
           className={linkStyles.linkElement}
+          download={fileName}
         >
           {text}
         </a>

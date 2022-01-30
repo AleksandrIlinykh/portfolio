@@ -1,7 +1,7 @@
 .header {
   width: 100%;
-  max-width: 3000px;
-  height: 70px;
+  max-width: 1440px;
+  height: 84px;
   background-color: inherit;
   color: inherit; 
   position: fixed;
@@ -10,11 +10,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: var( --text-main) solid 2px;
+  border-bottom: var( --header-line) solid 1px;
 }
 
 .logo {
-  margin: 5px 0 0 20px;
+  margin:auto 34px;
 }
 
 .logoText {
@@ -31,13 +31,20 @@
   font-size: 30px;
   color: white;
   display: flex;
-  transition: 2s ease;
+  margin-right: 55px;
 }
 
 .headerNavElem {
   composes: headerTextLink from "../common/common.module.css";
-  margin-right: 30px;
+
+}
+
+.link{
+  display: block;
+  padding: 20px;
   cursor: pointer;
+  width: 100%;
+  height: 100%;
 }
 
 .headerNavElem:hover {
@@ -73,39 +80,55 @@
 .logoLink:hover {
   color: var(--link-active);
 }
-@media screen and (max-width: 1450px) {
-  .logoText {
-    font-size: 30px;
-  }
-}
 
 @media screen and (max-width: 550px) {
   .logoText {
     font-size: 20px;
   }
-  
 }
 
 @media screen and (max-width: 1200px) {
   .headerNav {
     padding-inline-start: 0;
-    opacity: 0.8;
     width: 40%;
     height: calc(100vh - 70px);
-    background-color: var(--main-bg-color);
+    background-color: var(--bacground-slide-menu);
     position:fixed;
     top: 70px;
-    right: -50%;
+    right: -40%;
     z-index: 1;
+    opacity: 0%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     margin: 0;
     transition: all 1s ease;
   }
 
+  .headerNavElem {
+      font-size: 20px;
+      text-align: center;
+      width: 100%;
+      height: 20vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .link{
+    display: block;
+    padding: 20px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .headerNavActive {
+    opacity: 100%;
     right: 0;
   }
 

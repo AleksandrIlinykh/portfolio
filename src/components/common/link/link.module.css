@@ -4,6 +4,15 @@
   cursor: pointer;
 }
 
+.icon{
+  width: 41px;
+  height: 41px;
+  border: white solid 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .link {
 display: flex;
 align-items: center;
@@ -21,6 +30,5 @@ color: var(--link-active);
 .linkElement {
   text-decoration: underline;
   font: inherit;
+  margin-left: 18px;
 }
-
-

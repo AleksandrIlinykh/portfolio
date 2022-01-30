@@ -6,8 +6,8 @@
   gap: 20px;
   background-color: var(--background-main);
   color: var( --text-main); 
-  text-align: center;
   word-wrap: normal;
+  text-align: center;
 }
 
 .date {
@@ -15,35 +15,24 @@
   composes: timelineElementDate from "../../../common/common.module.css";
 }
 .header {
-  margin-top: 40px;
+  margin-top: 20px;
   composes: timelineElementHeader from "../../../common/common.module.css";
 }
 .text {
-  margin-top: 40px;
+  margin-top: 20px;
   composes: timelineElementText from "../../../common/common.module.css";
 }
 
 
 @media screen and (max-width: 600px) {
   .date {
-    font-size: 25px;
+    font-size: 18px;
   }
   .header {
-    font-size: 25px;
+    font-size: 20px;
   }
   .text { 
-    font-size: 20px;
+    font-size: 14px;
   }
 }
 
-@media screen and (max-width: 550px) {
-  .date {
-    font-size: 20px;
-  }
-  .header {
-    font-size: 20px;
-  }
-  .text { 
-    font-size: 15px;
-  }
-}
