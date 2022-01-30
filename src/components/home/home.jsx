@@ -1,7 +1,7 @@
 import homeStyles from "./home.module.css";
 import myPhoto from "../../images/myPhoto.png";
 import Link from "../common/link/link";
-
+import cv from "../../files/cv.pdf";
 export default function Home() {
   return (
     <>
@@ -15,11 +15,12 @@ export default function Home() {
             </p>
             <div className={homeStyles.links} id="about">
               <Link
-                type={"openNewTab"}
-                text={"К проектам"}
+                type={"download"}
+                text={"Резюме"}
                 iconSize={"large"}
+                href={cv}
+                fileName={"IlinykhCV.pdf"}
               />
-              <Link type={"download"} text={"Резюме"} iconSize={"large"} />
             </div>
           </section>
 
