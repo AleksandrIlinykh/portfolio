@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.85d69079.css",
-    "main.js": "/portfolio/static/js/main.ddce5767.js",
+    "main.css": "/portfolio/static/css/main.44bb7874.css",
+    "main.js": "/portfolio/static/js/main.14cfaf94.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/SourceCodePro-Regular.svg": "/portfolio/static/media/SourceCodePro-Regular.8a03192523f2a13858f8.svg",
     "static/media/SourceCodePro-Light.svg": "/portfolio/static/media/SourceCodePro-Light.bc6fe554b7925f6861b8.svg",
     "static/media/SourceCodePro-Medium.svg": "/portfolio/static/media/SourceCodePro-Medium.43a19cf3ef3b76b0e549.svg",
-    "static/media/cv.pdf": "/portfolio/static/media/cv.1fb8a95f1043d58fce66.pdf",
+    "static/media/cv.pdf": "/portfolio/static/media/cv.3facb96dd3b0b398b4be.pdf",
     "static/media/myPhoto.png": "/portfolio/static/media/myPhoto.6a027e0d4b8a3e3d8672.png",
     "static/media/SourceCodePro-Medium.woff": "/portfolio/static/media/SourceCodePro-Medium.db1ec2c539d12cc315cb.woff",
     "static/media/SourceCodePro-Regular.woff": "/portfolio/static/media/SourceCodePro-Regular.3ac8706e88220caacbc9.woff",
@@ -21,12 +21,12 @@
     "static/media/chat.png": "/portfolio/static/media/chat.d34dded9d18c9a6326a3.png",
     "static/media/linkedin-icon-white.png": "/portfolio/static/media/linkedin-icon-white.5537035a241851cebee2.png",
     "index.html": "/portfolio/index.html",
-    "main.85d69079.css.map": "/portfolio/static/css/main.85d69079.css.map",
-    "main.ddce5767.js.map": "/portfolio/static/js/main.ddce5767.js.map",
+    "main.44bb7874.css.map": "/portfolio/static/css/main.44bb7874.css.map",
+    "main.14cfaf94.js.map": "/portfolio/static/js/main.14cfaf94.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85d69079.css",
-    "static/js/main.ddce5767.js"
+    "static/css/main.44bb7874.css",
+    "static/js/main.14cfaf94.js"
   ]
 }
