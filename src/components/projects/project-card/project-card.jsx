@@ -26,16 +26,15 @@ export default function ProjectCard({
         <div className={projectCardStyles.description}>
           <h2 className={projectCardStyles.header}>{header}</h2>
           <p className={projectCardStyles.text}>{text}</p>
-          {/* 
+
           <div className={projectCardStyles.tagsContainer}>
             {tags.map((tag, index) => (
               <p className={projectCardStyles.tag} key={index}>
                 {tag}
               </p>
             ))}
-
           </div>
-          */}
+
           <div className={projectCardStyles.links}>
             <a href={link}>
               <img

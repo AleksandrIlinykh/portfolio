@@ -47,17 +47,14 @@ box-shadow: 0 0 14px 14px rgba(255, 255, 255, 0.25);
 .tagsContainer {
   display: flex; 
   gap: 10px;
+  flex-wrap: wrap;
+  margin: 10px;
   }
-
-.tags {
-display: flex;
-gap: 10px;
-flex-wrap: wrap;
-}
 
 .tag{
   border: var(--text-main) 2px solid;
   border-radius: 5px;
+  padding: 5px;
 }
 
 @media screen and (max-width:1200px) {

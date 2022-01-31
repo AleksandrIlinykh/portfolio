@@ -8,7 +8,17 @@ export const projectData = [
     text: `Учебный проект Яндекс - практикума, представляющий собой
       интернет-магазин бургеров с конструктором заказа, авторизацией,
       запросами к API сервера. Цель - практика hard-skills`,
-    tags: ["Javascript", "Typescript", "React", "Redux"],
+    tags: [
+      "Javascript",
+      "Typescript",
+      "React",
+      "Redux",
+      "React hooks",
+      "react-dnd",
+      "AJAX",
+      "react-dom-router",
+      "web-socket",
+    ],
     link: "https://github.com/AlexanderIlinykhDev/react-burger",
     imgSrc: <img src={reactBurgerImg} alt="" />,
   },
@@ -17,7 +27,7 @@ export const projectData = [
     header: "Коллективный чат",
     text: `Учебный проект Яндекс - практикума, представляющий собой
       коллективный чат. Цель проекта - командная работа, моя роль: стилизация компонентов`,
-    tags: ["Javascript", "React", "Redux"],
+    tags: ["Javascript", "React", "Redux", "Legasy-code"],
     link: "https://github.com/08-pk-team-03/react-project-kitchen-frontend",
     imgSrc: <img src={chatImg} alt="" />,
   },
