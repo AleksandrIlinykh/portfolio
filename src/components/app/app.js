@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Header from "../header/header";
 import Home from "../home/home";
 import About from "../about/about";
@@ -9,6 +9,11 @@ import appStyles from "./app.module.css";
 import OnScrollContainer from "../common/on-scroll-container/on-scroll-container";
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  useEffect(() => {
+    document.title = "Portfolio";
+  });
+
   return (
     <div className={appStyles.app}>
       <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
