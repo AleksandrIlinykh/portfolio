@@ -13,6 +13,7 @@
 
 html {
   background-color: var(--background-main);
+  overflow-x: hidden;
 }
 
 *{
