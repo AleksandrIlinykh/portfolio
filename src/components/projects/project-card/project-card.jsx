@@ -51,7 +51,7 @@ export default function ProjectCard({
               </a>
             </div>
           ) : (
-            <p>can't provide repository link - the project is not public</p>
+            <p>The code is under NDA</p>
           )}
         </div>
       </div>

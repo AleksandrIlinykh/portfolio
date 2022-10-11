@@ -75,7 +75,8 @@ export const timelineData = [
   {
     id: 2,
     date: '2021',
-    header: 'The last job as an engineer and a business trip to Holland',
+    header:
+      'The last job as an electronic engineer and a business trip to Netherlands',
     text: [
       `6 months engaged in engineering work at`,
       <Link
@@ -115,7 +116,7 @@ export const timelineData = [
         iconSize={'medium'}
         key={3}
       />,
-      ` course from Yandex Practicum, for almost a year I have been working as a full-time front-end developer.`,
+      ` course from Yandex Practicum, for almost a year I have been working as a full-time front-end developer at SimaLand .`,
     ],
   },
 ];
