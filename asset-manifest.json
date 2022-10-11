@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.32c140f4.css",
-    "main.js": "/portfolio/static/js/main.2bdc3c1a.js",
+    "main.js": "/portfolio/static/js/main.e7844cfb.js",
     "static/js/27.2163fce8.chunk.js": "/portfolio/static/js/27.2163fce8.chunk.js",
     "static/media/SourceCodePro-Regular.svg": "/portfolio/static/media/SourceCodePro-Regular.8a03192523f2a13858f8.svg",
     "static/media/SourceCodePro-Light.svg": "/portfolio/static/media/SourceCodePro-Light.bc6fe554b7925f6861b8.svg",
     "static/media/SourceCodePro-Medium.svg": "/portfolio/static/media/SourceCodePro-Medium.43a19cf3ef3b76b0e549.svg",
     "static/media/admin.png": "/portfolio/static/media/admin.84ed8fcb0d095a165dff.png",
     "static/media/corp7.png": "/portfolio/static/media/corp7.019bb6dd2595e2dd6fa4.png",
-    "static/media/cv.pdf": "/portfolio/static/media/cv.2df8db191b6898fdc322.pdf",
     "static/media/myPhoto.png": "/portfolio/static/media/myPhoto.6a027e0d4b8a3e3d8672.png",
     "static/media/burger1.png": "/portfolio/static/media/burger1.48c2d07f5d0c332fb836.png",
     "static/media/SourceCodePro-Medium.woff": "/portfolio/static/media/SourceCodePro-Medium.db1ec2c539d12cc315cb.woff",
@@ -22,6 +21,7 @@
     "static/media/SourceCodePro-Medium.eot": "/portfolio/static/media/SourceCodePro-Medium.10de97613f2c9dc256b1.eot",
     "static/media/SourceCodePro-Regular.ttf": "/portfolio/static/media/SourceCodePro-Regular.f43ea3b1599de0769ca4.ttf",
     "static/media/SourceCodePro-Medium.ttf": "/portfolio/static/media/SourceCodePro-Medium.8187bd7941fe65abfad0.ttf",
+    "static/media/cv.pdf": "/portfolio/static/media/cv.0434ad87ed25ac258b5f.pdf",
     "static/media/corp6.png": "/portfolio/static/media/corp6.02b94cf5d313985c73e4.png",
     "static/media/pp4.png": "/portfolio/static/media/pp4.2790acce3ce3d9a3ed79.png",
     "static/media/burger2.png": "/portfolio/static/media/burger2.cd4d143e78743d1e9741.png",
@@ -40,6 +40,6 @@
   },
   "entrypoints": [
     "static/css/main.32c140f4.css",
-    "static/js/main.2bdc3c1a.js"
+    "static/js/main.e7844cfb.js"
   ]
 }
