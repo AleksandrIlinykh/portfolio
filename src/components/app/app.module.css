@@ -1,16 +1,15 @@
-.app{  
+.app {
   width: 100vw;
   background-color: var(--background-main);
-  color: var( --text-main); 
-  border-color: var( --text-main) ; 
+  color: var(--text-main);
+  border-color: var(--text-main);
   display: flex;
   align-items: flex-start;
   justify-content: center;
-
 }
 
 .content {
-  max-width: 1200px;
+  max-width: 1800px;
   position: relative;
   top: 84px;
   scroll-behavior: smooth;
@@ -28,16 +27,14 @@
 .h2 {
   text-align: center;
   margin-bottom: 40px;
-  composes: blockHeader from "../common/common.module.css";
+  composes: blockHeader from '../common/common.module.css';
 }
 
-
-@media screen and (max-width: 1250px)  {
+@media screen and (max-width: 1250px) {
   .content {
     width: 90vw;
   }
 }
-
 
 @media screen and (max-width: 550px) {
   .h2 {

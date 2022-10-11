@@ -43,8 +43,12 @@
   width: 50%;
 }
 
+.description {
+  width: 50%;
+}
+
 .imageContainer img {
-  width: 600px;
+  width: 100%;
 }
 
 .tagsContainer {
@@ -68,6 +72,9 @@
 
 @media screen and (max-width: 1200px) {
   .imageContainer {
+    width: 100%;
+  }
+  .description {
     width: 100%;
   }
   .projectCard {
