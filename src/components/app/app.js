@@ -37,19 +37,19 @@ function App() {
         </div>
         <Line width={'200px'} height={'2px'} color={'white'} />
         <div className={appStyles.block} ref={aboutRef}>
-          <h2 className={appStyles.h2}>Обо мне</h2>
+          <h2 className={appStyles.h2}>About me</h2>
           <About />
         </div>
 
         <Line width={'200px'} height={'5px'} color={'white'} />
         <div className={appStyles.block} ref={projectsRef}>
-          <h2 className={appStyles.h2}>Мои проекты:</h2>
+          <h2 className={appStyles.h2}>MyProjects</h2>
           <Projects />
         </div>
         <Line width={'200px'} height={'5px'} color={'white'} />
         <div className={appStyles.block} ref={contactsRef}>
           <h2 className={appStyles.h2} id="contacts">
-            Контакты
+            Contacts
           </h2>
           <Contacts />
         </div>

@@ -9,8 +9,8 @@ export default function ProjectCard({
 интернет-магазин бургеров с конструктором заказа, авторизацией,
 запросами к API сервера.`,
   tags = ['Javascript', 'Typescript', 'React', 'Redux'],
-  link = 'https://github.com/AlexanderIlinykhDev/react-burger',
-  imgSrc,
+  link = '',
+  images,
 }) {
   const [isDescription, setIsDescription] = useState(false);
   return (
@@ -21,11 +21,10 @@ export default function ProjectCard({
         onMouseEnter={() => setIsDescription(true)}
         onMouseLeave={() => setIsDescription(false)}
       >
-        {/* <div className={projectCardStyles.imageContainer}>{imgSrc}</div> */}
         <div className={projectCardStyles.imageContainer}>
-          <Carousel autoplay>
-            {imgSrc}
-            {imgSrc}
+          {/*         <div className={projectCardStyles.imageContainer}> */}
+          <Carousel autoplay wrapAround>
+            {images.map((image) => image)}
           </Carousel>
         </div>
 
@@ -41,15 +40,17 @@ export default function ProjectCard({
             ))}
           </div>
 
-          <div className={projectCardStyles.links}>
-            <a href={link}>
-              <img
-                src={githubIconWhite}
-                className={projectCardStyles.linkImg}
-                alt=""
-              />
-            </a>
-          </div>
+          {link && (
+            <div className={projectCardStyles.links}>
+              <a href={link}>
+                <img
+                  src={githubIconWhite}
+                  className={projectCardStyles.linkImg}
+                  alt=""
+                />
+              </a>
+            </div>
+          )}
         </div>
       </div>
     </>

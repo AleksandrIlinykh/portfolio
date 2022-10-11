@@ -12,8 +12,8 @@ export default function Header({
   scrollToContacts,
 }) {
   const [isAboutActive, setIsAboutActive] = useState(true);
-  const [isProjectActive, setIsProjectActive] = useState(true);
-  const [isContactsActive, setIsContactsActive] = useState(true);
+  const [isProjectActive, setIsProjectActive] = useState(false);
+  const [isContactsActive, setIsContactsActive] = useState(false);
 
   useEffect(() => {
     const handleScroll = (e) => {

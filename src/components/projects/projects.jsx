@@ -1,7 +1,7 @@
-import projectsStyles from "./projects.module.css";
-import ProjectCard from "./project-card/project-card";
-import { projectData } from "../../data/projectsData";
-import OnScrollContainer from "../common/on-scroll-container/on-scroll-container";
+import projectsStyles from './projects.module.css';
+import ProjectCard from './project-card/project-card';
+import { projectData } from '../../data/projectsData';
+import OnScrollContainer from '../common/on-scroll-container/on-scroll-container';
 
 export default function Projects() {
   return (
@@ -13,7 +13,7 @@ export default function Projects() {
             text={project.text}
             tags={project.tags}
             link={project.link}
-            imgSrc={project.imgSrc}
+            images={project.images}
             key={project.id}
           />
         ))}

@@ -67,6 +67,9 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .imageContainer {
+    width: 100%;
+  }
   .projectCard {
     flex-direction: column;
     max-width: 70vw;
