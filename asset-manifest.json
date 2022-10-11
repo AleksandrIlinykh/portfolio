@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.32c140f4.css",
-    "main.js": "/portfolio/static/js/main.3a4b63d9.js",
+    "main.js": "/portfolio/static/js/main.cf1312ad.js",
     "static/js/27.2163fce8.chunk.js": "/portfolio/static/js/27.2163fce8.chunk.js",
     "static/media/SourceCodePro-Regular.svg": "/portfolio/static/media/SourceCodePro-Regular.8a03192523f2a13858f8.svg",
     "static/media/SourceCodePro-Light.svg": "/portfolio/static/media/SourceCodePro-Light.bc6fe554b7925f6861b8.svg",
@@ -23,7 +23,7 @@
     "static/media/SourceCodePro-Medium.eot": "/portfolio/static/media/SourceCodePro-Medium.10de97613f2c9dc256b1.eot",
     "static/media/SourceCodePro-Regular.ttf": "/portfolio/static/media/SourceCodePro-Regular.f43ea3b1599de0769ca4.ttf",
     "static/media/SourceCodePro-Medium.ttf": "/portfolio/static/media/SourceCodePro-Medium.8187bd7941fe65abfad0.ttf",
-    "static/media/cv.pdf": "/portfolio/static/media/cv.0434ad87ed25ac258b5f.pdf",
+    "static/media/cv.pdf": "/portfolio/static/media/cv.f8a97f7929a517207ffe.pdf",
     "static/media/corp6.png": "/portfolio/static/media/corp6.02b94cf5d313985c73e4.png",
     "static/media/lisa2.png": "/portfolio/static/media/lisa2.badce594263646a8fa90.png",
     "static/media/pp4.png": "/portfolio/static/media/pp4.2790acce3ce3d9a3ed79.png",
@@ -43,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.32c140f4.css",
-    "static/js/main.3a4b63d9.js"
+    "static/js/main.cf1312ad.js"
   ]
 }
