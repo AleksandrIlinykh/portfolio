@@ -1,19 +1,19 @@
-import React from "react";
-import Map from "./map/map";
-import contactsStyles from "./contacts.module.css";
-import githubIcon from "../../images/github-icon-white.png";
-import linkedinIcon from "../../images/linkedin-icon-white.png";
+import React from 'react';
+import Map from './map/map';
+import contactsStyles from './contacts.module.css';
+import githubIcon from '../../images/github-icon-white.png';
+import linkedinIcon from '../../images/linkedin-icon-white.png';
 
 export default function Contacts() {
   return (
     <section className={contactsStyles.contacts}>
       <section className={contactsStyles.info}>
         <p>
-          Номер телефона: <br /> <strong>+7-902-255-21-32</strong>
+          Phone: <br /> <strong>+7-705-801-70-52, +7-902-255-21-32</strong>
         </p>
         <p>
           Email: <br />
-          <strong>alexanderilinykhdev@yandex.ru</strong>
+          <strong>alexanderilinykhdev@gmail.com</strong>
         </p>
         <section className={contactsStyles.links}>
           <a href="https://github.com/AlexanderIlinykhDev/">
@@ -25,7 +25,7 @@ export default function Contacts() {
         </section>
       </section>
       <section className={contactsStyles.map}>
-        <h2>Я тут!</h2>
+        <h2>Currently I,m here!</h2>
         <Map />
       </section>
     </section>

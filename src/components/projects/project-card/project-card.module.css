@@ -1,13 +1,14 @@
 .projectCard {
-background-color: inherit;
-margin: 30px 0;
-color:inherit;
-position: relative;
-composes: projectCardText from "../../common/common.module.css";
-width: 100%;
-display: flex;
-flex-direction: row;
-box-shadow: 0 0 14px 14px rgba(255, 255, 255, 0.25);
+  padding: 20px;
+  background-color: inherit;
+  margin: 30px 0;
+  color: inherit;
+  position: relative;
+  composes: projectCardText from '../../common/common.module.css';
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 0 14px 14px rgba(255, 255, 255, 0.25);
 }
 
 .header {
@@ -19,7 +20,7 @@ box-shadow: 0 0 14px 14px rgba(255, 255, 255, 0.25);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  gap:10px;
+  gap: 10px;
   align-items: center;
 }
 
@@ -27,57 +28,66 @@ box-shadow: 0 0 14px 14px rgba(255, 255, 255, 0.25);
   margin: 10px;
 }
 
-
-.linkImg:hover{
+.linkImg:hover {
   border: var(--link-active) solid 2px;
   border-radius: 10px;
   background-color: var(--link-active);
 }
 
-.linkImg{
+.linkImg {
   margin-right: 20px;
   width: 50px;
+}
 
+.imageContainer {
+  width: 50%;
+}
+
+.description {
+  width: 50%;
 }
 
 .imageContainer img {
-  width: 600px;
+  width: 100%;
 }
 
 .tagsContainer {
-  display: flex; 
+  display: flex;
   gap: 10px;
-  }
-
-.tags {
-display: flex;
-gap: 10px;
-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 10px;
 }
 
-.tag{
+.tag {
   border: var(--text-main) 2px solid;
   border-radius: 5px;
+  padding: 5px;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   .projectCard {
     flex-direction: column;
-    }
+  }
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
+  .imageContainer {
+    width: 100%;
+  }
+  .description {
+    width: 100%;
+  }
   .projectCard {
     flex-direction: column;
     max-width: 70vw;
-    }
-    .imageContainer img {
-      width: 65vw;
-    }
+  }
+  .imageContainer img {
+    width: 65vw;
+  }
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width: 550px) {
   .projectCard {
     font-size: 16px;
-    }
+  }
 }
