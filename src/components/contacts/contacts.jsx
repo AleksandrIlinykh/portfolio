@@ -19,7 +19,7 @@ export default function Contacts() {
           <a href="https://github.com/AlexanderIlinykhDev/">
             <img src={githubIcon} className={contactsStyles.linkImg} alt="" />
           </a>
-          <a href="https://www.linkedin.com/in/alexandr-iljinykh-2a00451a4">
+          <a href="https://www.linkedin.com/in/alexandr-ilinykh-2a00451a4/">
             <img src={linkedinIcon} className={contactsStyles.linkImg} alt="" />
           </a>
         </section>
