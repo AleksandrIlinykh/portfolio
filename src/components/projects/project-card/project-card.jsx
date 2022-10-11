@@ -1,15 +1,15 @@
-import { useState } from "react";
-import projectCardStyles from "./project-card.module.css";
-
-import githubIconWhite from "../../../images/github-icon-white.png";
+import { useState } from 'react';
+import projectCardStyles from './project-card.module.css';
+import Carousel from 'nuka-carousel';
+import githubIconWhite from '../../../images/github-icon-white.png';
 
 export default function ProjectCard({
-  header = "React - burger",
+  header = 'React - burger',
   text = `Учебный проект Яндекс - практикума, представляющий собой
 интернет-магазин бургеров с конструктором заказа, авторизацией,
 запросами к API сервера.`,
-  tags = ["Javascript", "Typescript", "React", "Redux"],
-  link = "https://github.com/AlexanderIlinykhDev/react-burger",
+  tags = ['Javascript', 'Typescript', 'React', 'Redux'],
+  link = 'https://github.com/AlexanderIlinykhDev/react-burger',
   imgSrc,
 }) {
   const [isDescription, setIsDescription] = useState(false);
@@ -21,7 +21,13 @@ export default function ProjectCard({
         onMouseEnter={() => setIsDescription(true)}
         onMouseLeave={() => setIsDescription(false)}
       >
-        <div className={projectCardStyles.imageContainer}>{imgSrc}</div>
+        {/* <div className={projectCardStyles.imageContainer}>{imgSrc}</div> */}
+        <div className={projectCardStyles.imageContainer}>
+          <Carousel autoplay>
+            {imgSrc}
+            {imgSrc}
+          </Carousel>
+        </div>
 
         <div className={projectCardStyles.description}>
           <h2 className={projectCardStyles.header}>{header}</h2>
