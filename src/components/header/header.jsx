@@ -17,8 +17,6 @@ export default function Header({
 
   useEffect(() => {
     const handleScroll = (e) => {
-      console.log('projectsRef', projectsRef.current.offsetTop);
-      console.log('window', window.scrollY);
       if (Math.abs(window.scrollY - aboutRef.current.offsetTop) < 100) {
         setIsAboutActive(true);
         setIsProjectActive(false);
