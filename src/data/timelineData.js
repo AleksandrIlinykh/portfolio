@@ -52,7 +52,7 @@ export const timelineData = [
         iconSize={'medium'}
         key={1}
       />,
-      `. I was working on software writing projects in addition to engineering tasks. My greatest accomplishment is the program refactoring and the removal of a bug in the microcontroller code in 8086 assembler, which caused the devices to intermittently fail for several years!`,
+      `. I was working on software in addition to engineering tasks. My greatest accomplishment is the program refactoring and the removal of a bug in the microcontroller code in 8086 assembler, which caused the devices to intermittently fail for several years!`,
     ],
   },
   {
