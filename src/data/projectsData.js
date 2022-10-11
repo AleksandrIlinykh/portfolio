@@ -49,7 +49,7 @@ export const projectData = [
   {
     id: 2,
     header: 'Group chat  (study project)',
-    text: `Yandex's workshop for training uses group chat. The project's aim is collaboration, and I play the part of component styling`,
+    text: `Yandex's workshop for training uses group chat. The project's aim is collaboration, I playd the part of components styling and refactoring.`,
     tags: ['Javascript', 'React', 'Redux', 'Legasy-code', 'refactoring'],
     link: 'https://github.com/08-pk-team-03/react-project-kitchen-frontend',
     images: [<img src={kitchen} alt="" />],
@@ -92,7 +92,7 @@ export const projectData = [
   {
     id: 5,
     header: 'Corporate portal admin service (current work)',
-    text: `The application was developed to create/edit/delite news for corporate portal, administrate education programms. I have completely writen news part`,
+    text: `The application was developed to create/edit/delite news for corporate portal, administrate education programms - I have completely writen news part.`,
     tags: ['Typescript', 'React', 'Redux-toolkit', 'Axios', 'react-quill'],
     images: [<img src={admin} alt="image" />],
   },
@@ -119,7 +119,7 @@ export const projectData = [
   {
     id: 7,
     header: 'Chat for developers',
-    text: `A fresh project for which I made a Figma design layout and made up a layout (suspended due to more complex tasks)`,
+    text: `A fresh project for which I made a Figma design layout and made up a layout (suspended due to more complex tasks).`,
     tags: ['Typescript', 'React', 'Zustand', 'Axios', 'Refactoring'],
     images: [<img src={chat1} alt="image" />],
   },
