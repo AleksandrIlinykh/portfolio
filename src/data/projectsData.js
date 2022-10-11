@@ -16,6 +16,9 @@ import pp3 from '../images/projects/pp/pp3.png';
 import pp4 from '../images/projects/pp/pp4.png';
 import chat1 from '../images/projects/chat/chat1.png';
 import admin from '../images/projects/admin/admin.png';
+import lisa1 from '../images/projects/lisa/lisa1.png';
+import lisa2 from '../images/projects/lisa/lisa2.png';
+import lisa3 from '../images/projects/lisa/lisa3.png';
 
 export const projectData = [
   {
@@ -53,6 +56,17 @@ export const projectData = [
   },
   {
     id: 3,
+    header: 'Lisaalert education platform  (volunteer work)',
+    text: `The app provides training programs for those interested in learning about search engine events, as well as the option to enroll in courses and access text, video, webinars, and tests. My responsibilities included managing team communication, breaking down the design into components, assigning tasks and scheduling when to implement them, reviewing the code of front-end developers, and coordinating with the backend.`,
+    tags: ['Javascript', 'React', 'Redux', 'Axios', 'react-router-dom'],
+    images: [
+      <img src={lisa1} alt="" />,
+      <img src={lisa2} alt="" />,
+      <img src={lisa3} alt="" />,
+    ],
+  },
+  {
+    id: 4,
     header: 'Corporate portal  (current work)',
     text: `A large project for company employees filled with features (employee contacts, corporate vehicle registration, ordering certificates, training materials and education programs, food orders, a corporate fleet market, etc.). Redux-Saga and Redux-Toolkit were used to write the logic and state management. I've written a number of services (ordering documents, registering for business transportation, and creating employee expense reports), and the project is still in progress. I'm refactoring code right now.`,
     tags: [
@@ -76,17 +90,25 @@ export const projectData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     header: 'Corporate portal admin service (current work)',
     text: `The application was developed to create/edit/delite news for corporate portal, administrate education programms. I have completely writen news part`,
     tags: ['Typescript', 'React', 'Redux-toolkit', 'Axios', 'react-quill'],
     images: [<img src={admin} alt="image" />],
   },
   {
-    id: 5,
+    id: 6,
     header: 'Pickup point administrator app',
     text: `The application was developed to manage the points of issue for orders, and it includes features for showing sales data, information about the location and status of orders, and management of the points of issue for orders' staff members. I entirely revised the app: javascript to typescript conversion, embedding of the zustand state manager, fetch to axios conversion, and ant design to internal design library conversion.`,
-    tags: ['Typescript', 'React', 'Zustand', 'Axios', 'Refactoring'],
+    tags: [
+      'Typescript',
+      'React',
+      'Zustand',
+      'Axios',
+      'Refactoring',
+      'react-table',
+      'victory.js',
+    ],
     images: [
       <img src={pp1} alt="image" />,
       <img src={pp2} alt="image" />,
@@ -95,7 +117,7 @@ export const projectData = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     header: 'Chat for developers',
     text: `A fresh project for which I made a Figma design layout and made up a layout (suspended due to more complex tasks)`,
     tags: ['Typescript', 'React', 'Zustand', 'Axios', 'Refactoring'],

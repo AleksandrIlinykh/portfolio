@@ -40,7 +40,7 @@ export default function ProjectCard({
             ))}
           </div>
 
-          {link && (
+          {link ? (
             <div className={projectCardStyles.links}>
               <a href={link}>
                 <img
@@ -50,6 +50,8 @@ export default function ProjectCard({
                 />
               </a>
             </div>
+          ) : (
+            <p>can't provide repository link - the project is not public</p>
           )}
         </div>
       </div>
