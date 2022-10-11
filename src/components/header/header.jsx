@@ -72,7 +72,7 @@ export default function Header({
                 scrollToAbout();
               }}
             >
-              <p>Обо мне</p>
+              <p>About me</p>
             </a>
           </li>
           <li
@@ -89,7 +89,7 @@ export default function Header({
                 scrollToProjects();
               }}
             >
-              <p>Проекты</p>
+              <p>Projects</p>
             </a>
           </li>
           <li
@@ -106,7 +106,7 @@ export default function Header({
                 scrollToContacts();
               }}
             >
-              <p>Контакты</p>
+              <p>Contacts</p>
             </a>
           </li>
         </ul>
